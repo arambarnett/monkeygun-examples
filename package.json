@@ -1,0 +1,15 @@
+{
+  "name": "monkeygun-examples",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "listing": "node examples/01-exchange-listing.mjs",
+    "yield": "node examples/02-yield-rate-split.mjs",
+    "recap": "node examples/03-portfolio-recap.mjs",
+    "footage": "node examples/04-footage-campaign.mjs",
+    "stocks": "node examples/05-stocks-weekly.mjs",
+    "url": "node examples/06-url-to-video.mjs"
+  },
+  "license": "MIT"
+}
