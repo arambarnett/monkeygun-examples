@@ -1,11 +1,11 @@
 // 06 · URL to video
 // Point it at a page. Facts, stills and the page's own colors come out of the page; the
-// script can only say what the page says. Here: the Pokémon card artist Mitsuhiro Arita.
+// script can only say what the page says. Here: Ken Sugimori, the artist who designed the original Pokémon.
 //
 //   node examples/06-url-to-video.mjs [https://any.page]
 import { api, waitForVideo, done } from '../lib/monkeygun.mjs'
 
-const url = process.argv[2] ?? 'https://en.wikipedia.org/wiki/Mitsuhiro_Arita'
+const url = process.argv[2] ?? 'https://en.wikipedia.org/wiki/Ken_Sugimori'
 
 // 1. read the page → source pack (free). A page that did not load is refused, so nothing is invented from a 404.
 const pack = await api('/v1/sources', { url })

@@ -26,4 +26,15 @@ Every script prints the keyed `renderUrl` (plays without a session), a share pag
 
 ## Samples
 
-Each example was run against production; the rendered results are linked from the [examples page in the docs](https://monkey-gun.gitbook.io/monkeygun/examples/monkeygun-examples).
+Each script was run against production. Watch the results:
+
+| # | Sample |
+|---|---|
+| 01 | [Bitcoin ($BTC) is live](https://monkeygun.com/w/vid-422?k=5eed15a54d475d0eb30e) |
+| 02 | [How much of USDC Vault's 26% is real?](https://monkeygun.com/w/vid-421?k=44d584944fda17b69a38) |
+| 03 | [@soggychad: your week](https://monkeygun.com/w/vid-423?k=d69a6e2083d2f8de2f79) |
+| 04 | [Cut from your own footage](https://monkeygun.com/w/vid-425?k=815e407ba99a2ad20c58) |
+| 05 | [AMD up 23% in a week](https://monkeygun.com/w/vid-424?k=e203ca6d3e163cf1fb64) |
+| 06 | [Ken Sugimori: the hand behind the first 151 Pokémon](https://monkeygun.com/w/vid-426?k=3d45860c08fe23ce4566) |
+
+More on the [examples page in the docs](https://monkey-gun.gitbook.io/monkeygun/examples/runnable-examples).

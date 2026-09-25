@@ -14,7 +14,7 @@ console.log(`uploaded → assetId ${up.assetId}`)
 
 // 2. index it once (20 credits per minute of footage). quoteOnly:true prices it first.
 const idx = await tool('index_footage', { assetIds: [up.assetId] })
-console.log(`indexed: ${idx.scenes?.length ?? idx.indexed ?? ''} scenes, ${idx.charged ?? 0} credits`)
+console.log(`indexed (${idx.charged ?? 0} credits): ${JSON.stringify(idx).slice(0, 160)}`)
 
 // 2b. no speech? find the moments (loudness peaks, cuts) for clipRef cuts. 5 credits per minute.
 const hl = await tool('find_highlights', { assetId: up.assetId }).catch(e => ({ error: e.message }))
